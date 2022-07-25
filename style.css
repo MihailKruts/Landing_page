@@ -11,13 +11,15 @@ header{
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
-    padding: 10px 1em;
+    padding: 1em, 4em;
+    justify-content: space-around;
+    gap: 2em;
     width: 100%;
 }
 
 nav{
+    right: 0;
     
-    width: inherit;
 }
 .nav-bar{
     display: flex;
