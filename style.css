@@ -12,32 +12,55 @@ header{
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    padding: 2em 4em;
-    justify-content: space-around;
+    padding: 2em 8em;
+    justify-content: space-between;
     gap: 2em;
-    width: 100%;
-
+    
 }
+
 nav{
+    align-items: flex-end;
     display: flex;
     font-weight: normal;
     font-size: 18px;
-    gap: 0 2em;
-    align-items: flex-end;
+    gap: 0 2em;    
 }
-#top-quote{
+
+
+#hero-text{
     display: flex;
     background-color: #1F2937;
-    color: #F9FAF8;
-    
-    padding: 2em 4em;
+    color: #F9FAF8;    
+    padding: 4em 12em;
+    gap: 0 2em;
 
 
 }
 
+#hero-main{
+    font-size: 24px; 
+
+}
+
+#sign-btn{
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 1em 4em;
+}
 
 
 #img-placeholder{
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 800px;
+    background-color: grey;
+    font: 18px;
 }
 
