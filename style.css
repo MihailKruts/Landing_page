@@ -82,10 +82,17 @@ nav{
 
 .info-element{
     display: flex;
+    flex-direction: column;
     font-size: 18px;
     color: gray;
+    gap: 1em;
+    width: 200px;
 
+}
 
+.info-pic{
+    border: 2px solid black;
+    height: 200px;
 }
 
 
