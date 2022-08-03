@@ -99,8 +99,7 @@ nav{
     height: 175px;
 }
 
-#quote-block{
-    background-color: #E5E7EB;
+.quote-block{
     margin: 0;    
     padding: 4em 20em;
 }
@@ -116,7 +115,11 @@ nav{
     font-size: 24px;
 }
 
+#sign-block{
+    border: 2px solid black;
 
+
+}
 
 
 
